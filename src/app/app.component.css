@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+}
+
+.container {
+    border: 6px solid black;
+}
+
+.container-wrap {
+    border: 6px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-flex {
+    border: 6px solid black;
+    display: flex;
+}
+
+.container-inline-flex {
+    border: 6px solid black;
+    display: inline-flex;
+}
+
+.container-flex-direction-row-reverse {
+    border: 6px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-flex-direction-column {
+    border: 6px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-flex-direction-column-reverse {
+    border: 6px solid black;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.container-flex-flow {
+    border: 6px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.container-justify-content-flex-end {
+    border: 6px solid black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-justify-content-space-between {
+    border: 6px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-justify-content-space-around {
+    border: 6px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-align-items-flex-end {
+    border: 6px solid black;
+    display: flex;
+    height: 600px;
+    align-items: flex-end;
+}
+
+.container-align-items-flex-start {
+    border: 6px solid black;
+    display: flex;
+    height: 600px;
+    align-items: flex-start;
+}
+
+.container-align-items-flex-center {
+    border: 6px solid black;
+    display: flex;
+    height: 600px;
+    align-items: center;
+}
+
+.container-flex-center {
+    border: 6px solid black;
+    display: flex;
+    height: 600px;
+    align-items: center;
+}
+
+.container-align-content-flex-center {
+    border: 6px solid black;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.container-align-content-space-between {
+    border: 6px solid black;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+
+.flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.item-1 {
+    background-color: yellow;
+}
+
+.item-2 {
+    background-color: greenyellow;
+}
+
+.item-3 {
+    background-color: hotpink;
+}
+
+.item-4 {
+    background-color: lightcoral;
+}
+
+.item-5 {
+    background-color: lightseagreen;
+}
+
+.item-6 {
+    background-color: maroon;
+}
+
+.item-7 {
+    background-color: maroon;
+}
+
+.item-8 {
+    background-color: orangered;
+}
+
+.item-9 {
+    background-color: orchid;
+}
