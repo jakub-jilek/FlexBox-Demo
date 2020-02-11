@@ -110,7 +110,45 @@ body {
 }
 
 
+.container-flex-align-self {
+    border: 6px solid black;
+    display: flex;
+    height: 500px;
+}
+
+
 .flex-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.flex-grow-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.flex-shrink-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.flex-shrink-width-item {
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    width: 8rem;
+}
+
+.flex-item-align-self {
     color: white;
     font-size: 1.5rem;
     padding: 1rem;
@@ -150,5 +188,145 @@ body {
 }
 
 .item-9 {
+    background-color: orchid;
+}
+
+
+.item-order-1 {
+    background-color: yellow;
+}
+
+.item-order-2 {
+    background-color: greenyellow;
+}
+
+.item-order-3 {
+    background-color: hotpink;
+}
+
+.item-order-4 {
+    background-color: lightcoral;
+    order: 1;
+}
+.item-order-5 {
+    background-color: lightseagreen;
+}
+
+.item-order-6 {
+    background-color: maroon;
+}
+
+.item-order-7 {
+    background-color: maroon;
+    order: 2;
+}
+
+.item-order-8 {
+    background-color: orangered;
+}
+
+.item-order-9 {
+    background-color: orchid;
+}
+
+
+
+
+
+.item-flex-grow-1 {
+    background-color: yellow;
+}
+
+.item-flex-grow-2 {
+    background-color: greenyellow;
+}
+
+.item-flex-grow-3 {
+    background-color: hotpink;
+}
+
+.item-flex-grow-4 {
+    background-color: lightcoral;
+    flex-grow: 1;
+}
+.item-flex-grow-5 {
+    background-color: lightseagreen;
+}
+
+.item-flex-grow-6 {
+    background-color: maroon;
+}
+
+.item-flex-grow-7 {
+    background-color: maroon;
+}
+
+.item-flex-grow-8 {
+    background-color: orangered;
+}
+
+.item-flex-grow-9 {
+    background-color: orchid;
+}
+
+
+
+.item-shrink-2 {
+    background-color: greenyellow;
+    flex-shrink: 8;
+}
+
+
+
+
+.item-bases-1 {
+    background-color: yellow;
+    flex-basis: auto;
+}
+
+.item-bases-400-1 {
+    background-color: yellow;
+    flex-basis: 400px;
+}
+
+
+
+
+
+.item-flex-align-self-1 {
+    background-color: yellow;
+    align-self: flex-start;
+}
+
+.item-flex-align-self-2 {
+    background-color: greenyellow;
+    align-self: flex-end;
+}
+
+.item-flex-align-self-3 {
+    background-color: hotpink;
+    align-self: center;
+}
+
+.item-flex-align-self-4 {
+    background-color: lightcoral;
+}
+.item-flex-align-self-5 {
+    background-color: lightseagreen;
+}
+
+.item-flex-align-self-6 {
+    background-color: maroon;
+}
+
+.item-flex-align-self-7 {
+    background-color: maroon;
+}
+
+.item-flex-align-self-8 {
+    background-color: orangered;
+}
+
+.item-flex-align-self-9 {
     background-color: orchid;
 }

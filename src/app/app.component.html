@@ -193,4 +193,136 @@
       <div class="flex-item item-9">Item 9</div>
     </div>
   </mat-tab>
+  <mat-tab label="Flex item">
+    <h3>Defaultně je pro každý item nastaven order na "0", podle nastavených orderů, jsou itemy seřazeny vzestupně - <code>order</code>
+      číslo "4" má nastaveno order na 1, číslo "7" na 2, zbytek má defaultní order 0</h3>
+    <div class="container-flex">
+      <div class="flex-item item-order-1">Item 1</div>
+      <div class="flex-item item-order-2">Item 2</div>
+      <div class="flex-item item-order-3">Item 3</div>
+      <div class="flex-item item-order-4">Item 4</div>
+      <div class="flex-item item-order-5">Item 5</div>
+      <div class="flex-item item-order-6">Item 6</div>
+      <div class="flex-item item-order-7">Item 7</div>
+      <div class="flex-item item-order-8">Item 8</div>
+      <div class="flex-item item-order-9">Item 9</div>
+    </div>
+    <hr>
+    <h3>Defaultně je pro každý item nastaven flex-grow na "0", tímto parametrem můžeme určit kolik zbývajícího místa si který item může vzít pro sebe a do toho se roztáhnout.
+       - <code>flex-grow</code></h3>
+       <h4>Default</h4>
+      <div class="container-flex">
+      <div class="flex-item item-1">Item 1</div>
+      <div class="flex-item item-2">Item 2</div>
+      <div class="flex-item item-3">Item 3</div>
+      <div class="flex-item item-4">Item 4</div>
+      <div class="flex-item item-5">Item 5</div>
+      <div class="flex-item item-6">Item 6</div>
+      <div class="flex-item item-7">Item 7</div>
+      <div class="flex-item item-8">Item 8</div>
+      <div class="flex-item item-9">Item 9</div>
+    </div>
+    <h4>Item 4 má flex grow nastaveno na 1</h4>
+    <div class="container-flex">
+      <div class="flex-item item-flex-grow-1">Item 1</div>
+      <div class="flex-item item-flex-grow-2">Item 2</div>
+      <div class="flex-item item-flex-grow-3">Item 3</div>
+      <div class="flex-item item-flex-grow-4">Item 4</div>
+      <div class="flex-item item-flex-grow-5">Item 5</div>
+      <div class="flex-item item-flex-grow-6">Item 6</div>
+      <div class="flex-item item-flex-grow-7">Item 7</div>
+      <div class="flex-item item-flex-grow-8">Item 8</div>
+      <div class="flex-item item-flex-grow-9">Item 9</div>
+    </div>
+    <h4>Všechny itemy mají flex grow nastaveno na 1 a zaplňují zbývající prostor rovnoměrně</h4>
+    <div class="container-flex">
+      <div class="flex-grow-item item-1">Item 1</div>
+      <div class="flex-grow-item item-2">Item 2</div>
+      <div class="flex-grow-item item-3">Item 3</div>
+      <div class="flex-grow-item item-4">Item 4</div>
+      <div class="flex-grow-item item-5">Item 5</div>
+      <div class="flex-grow-item item-6">Item 6</div>
+      <div class="flex-grow-item item-7">Item 7</div>
+      <div class="flex-grow-item item-8">Item 8</div>
+      <div class="flex-grow-item item-9">Item 9</div>
+    </div>
+    <hr>
+    <h3>Všechny itemy mají flex-shrink nastaveno na 1 a dělají opak k flex-grow, pokud zmenšuju obrazovku, jednotlivé itemy se snaží být rezponzivní a rovnoměrně se zmenšují s ní,
+      tuto funkci můžeme vypnout, když nastavíme flex-shrink na 0 (Uvidíš při zmenšení obrazovky)
+    </h3>
+    <h4>Default (Flex-shrink-1)</h4>
+    <div class="container-flex">
+      <div class="flex-item item-1">Item 1</div>
+      <div class="flex-item item-2">Item 2</div>
+      <div class="flex-item item-3">Item 3</div>
+      <div class="flex-item item-4">Item 4</div>
+      <div class="flex-item item-5">Item 5</div>
+      <div class="flex-item item-6">Item 6</div>
+      <div class="flex-item item-7">Item 7</div>
+      <div class="flex-item item-8">Item 8</div>
+      <div class="flex-item item-9">Item 9</div>
+    </div>
+    <h4>Flex-shrink-0 pro všechny itemy</h4>
+    <div class="container-flex">
+      <div class="flex-shrink-item item-1">Item 1</div>
+      <div class="flex-shrink-item item-2">Item 2</div>
+      <div class="flex-shrink-item item-3">Item 3</div>
+      <div class="flex-shrink-item item-4">Item 4</div>
+      <div class="flex-shrink-item item-5">Item 5</div>
+      <div class="flex-shrink-item item-6">Item 6</div>
+      <div class="flex-shrink-item item-7">Item 7</div>
+      <div class="flex-shrink-item item-8">Item 8</div>
+      <div class="flex-shrink-item item-9">Item 9</div>
+    </div>
+    <h4>Flex-shrink-8 pro item 2 - tento item se při zmenšení obrazovky shrinkuje (zmenšuje) osmkrát rychleji než ostatní itemy</h4>
+    <div class="container-flex">
+      <div class="flex-shrink-width-item item-1">Item 1</div>
+      <div class="flex-shrink-width-item item-shrink-2">Item 2</div>
+      <div class="flex-shrink-width-item item-3">Item 3</div>
+      <div class="flex-shrink-width-item item-4">Item 4</div>
+      <div class="flex-shrink-width-item item-5">Item 5</div>
+    </div>
+    <hr>
+    <h3>Flex basis - nastavuje počáteční velikost itemu, defaultní hodnota je "auto"
+    </h3>
+    <h4>Default (flex-bases: auto)</h4>
+    <div class="container-flex">
+      <div class="flex-item item-bases-1">Item 1</div>
+      <div class="flex-item item-2">Item 2</div>
+      <div class="flex-item item-3">Item 3</div>
+      <div class="flex-item item-4">Item 4</div>
+      <div class="flex-item item-5">Item 5</div>
+      <div class="flex-item item-6">Item 6</div>
+      <div class="flex-item item-7">Item 7</div>
+      <div class="flex-item item-8">Item 8</div>
+      <div class="flex-item item-9">Item 9</div>
+    </div>
+    <h4>flex-bases: 400px</h4>
+    <div class="container-flex">
+      <div class="flex-item item-bases-400-1">Item 1</div>
+      <div class="flex-item item-2">Item 2</div>
+      <div class="flex-item item-3">Item 3</div>
+      <div class="flex-item item-4">Item 4</div>
+      <div class="flex-item item-5">Item 5</div>
+      <div class="flex-item item-6">Item 6</div>
+      <div class="flex-item item-7">Item 7</div>
+      <div class="flex-item item-8">Item 8</div>
+      <div class="flex-item item-9">Item 9</div>
+    </div>
+    <hr>
+    <h3>Align self - nastavuje podobně jako align-items nebo align-content pozici, ale tenktokrát samotného itemu nebo celého containeru
+    </h3>
+    <h4>Align self - item 1 (start), item 2 (end), item 3 (center)</h4>
+    <div class="container-flex-align-self">
+      <div class="flex-item-align-self item-flex-align-self-1">Item 1</div>
+      <div class="flex-item-align-self item-flex-align-self-2">Item 2</div>
+      <div class="flex-item-align-self item-flex-align-self-3">Item 3</div>
+      <div class="flex-item-align-self item-flex-align-self-4">Item 4</div>
+      <div class="flex-item-align-self item-flex-align-self-5">Item 5</div>
+      <div class="flex-item-align-self item-flex-align-self-6">Item 6</div>
+      <div class="flex-item-align-self item-flex-align-self-7">Item 7</div>
+      <div class="flex-item-align-self item-flex-align-self-8">Item 8</div>
+      <div class="flex-item-align-self item-flex-align-self-9">Item 9</div>
+    </div>
+  </mat-tab>
 </mat-tab-group>
