@@ -12,6 +12,23 @@ body {
     flex-wrap: wrap;
 }
 
+@media screen and (min-width: 800px) {
+  .container-column-wrap {
+    flex-direction: column;
+  }
+  .container-column-wrap {
+    border: 6px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.subcontainer-column-wrap {
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
 .container-flex {
     border: 6px solid black;
     display: flex;
