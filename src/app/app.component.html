@@ -52,7 +52,8 @@
       <div class="flex-item item-8">Item 8</div>
       <div class="flex-item item-9">Item 9</div>
     </div>
-    <hr><h3>PRO ONDRU - Container mimo jiné obsahuje <code>flex-wrap: wrap</code> a všechny itemy se drží v rámci subcontaineru při změně rozlišení.</h3>
+    <hr><h3>Container mimo jiné obsahuje <code>flex-wrap: wrap</code> a všechny itemy se drží v rámci subcontaineru při změně rozlišení. Je zde taky implementována změna flex-direction
+    při změně rozlišení</h3>
     <div class="container-column-wrap">
       <div class="subcontainer-column-wrap">
       <div class="flex-item item-1">Item 1</div>
@@ -335,8 +336,7 @@
       <div class="flex-item item-9">Item 9</div>
     </div>
     <hr>
-    <h3>Align self - nastavuje podobně jako align-items nebo align-content pozici, ale tenktokrát samotného itemu nebo celého containeru
-    </h3>
+    <h3>Align self - nastavuje podobně jako align-items nebo align-content pozici, ale tenktokrát samotného itemu nebo celého containeru</h3>
     <h4>Align self - item 1 (start), item 2 (end), item 3 (center)</h4>
     <div class="container-flex-align-self">
       <div class="flex-item-align-self item-flex-align-self-1">Item 1</div>
@@ -349,5 +349,24 @@
       <div class="flex-item-align-self item-flex-align-self-8">Item 8</div>
       <div class="flex-item-align-self item-flex-align-self-9">Item 9</div>
     </div>
+  </mat-tab>
+  <mat-tab label="Navigace - ukázka">
+    <h3>Navigace s nastaveným flexem a responsibilitou</h3>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+  </mat-tab>
+  <mat-tab label="Variabilní výška">
+    <h3>Jen za pomocí jednoho atributu "display: flex" se oba itemy rozdělí do stejné výšky a rozloží se vedle sebe</h3>
+    <div class="container">
+      <div class="item1">This is a flex item</div>
+      <div class="item2">asfkhas ikjfh askdjlf haskůdhfg akshgd oaiůhgůakls dhjfoů a sdhf dhfg jdhgjkshdf sdah fgkasdů hf ksůad fgoh f kjhdhs gfkj ůhsdf kjhasdfha sdk jfhskdjfha sdk jfhsjkdh fgkajshg kjafhg kjfhgasdk fhksjdhfksajdhfa skdjhfs dhjfk adhf kasd hfks adhfkasdhfkasdjhfsadfkldssfkhas ikjfh askdjlf haskůdhfg akshgd oaiůhgůakls dhjfoů a sdhf dhfg jdhgjkshdf sdah fgkasdů hf ksůad fgoh f kjhdhs gfkj ůhsdf kjhasdfha sdk jfhskdjfha sdk jfhsjkdh fgkajshg kjafhg kjfhgasdk fhksjdhfksajdhfa skdjhfs dhjfk adhf kasd hfks adhfkasdhfkasdjhfs</div>
+    </div>
+    <hr>
   </mat-tab>
 </mat-tab-group>
